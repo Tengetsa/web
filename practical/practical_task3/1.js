@@ -12,7 +12,7 @@
 const celsius = Number.parseFloat(prompt("Введите температуру в градусах Цельсия:"));
 
 function degrees(celsius) {
-    let fahrenheit = (9 / 5) * celsius + 32;
+    const fahrenheit = (9 / 5) * celsius + 32;
     return alert(`Цельсий: ${Math.floor(celsius)}, Фаренгейт: ${(Math.floor(fahrenheit * 100)/ 100)}`);
 }
 

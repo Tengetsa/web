@@ -3,7 +3,6 @@ CREATE TABLE EMPLOYEE (
     name TEXT NOT NULL,
     age TEXT NOT NULL,
     address TEXT NOT NULL
-
 );
 
 INSERT INTO EMPLOYEE (name, age, address) VALUES ('Ivan', '23', 'Ekaterinburg');
